@@ -4,13 +4,67 @@
     display: flex;
     flex-direction: column;
 
+    header {
+        background-color: beige;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .navigation_bar {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+
+        .header_text{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+
 
     .middle_section{
-        width:90%;
+        background-color: cadetblue;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+
+        .main_content {
+            display: flex;
+            justify-content: space-around;
+
+            .big_image {
+                width: 45%;
+                background-color: darksalmon;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .main_content .text_content {
+            background-color: darkkhaki;
+            width: 45%;
+        }
 
         .main_content img {
             width: 30rem;
             height: 40rem;
+        }
+
+        .btn {
+            .btn-style();
+        }
+    }
+
+    .lower_section{
+        background-color: crimson;
+        display: flex;
+        justify-content: space-around;
+
+        .lower_text {
+            background-color: cornflowerblue;
+            width: 32%;
         }
     }
 
