@@ -150,6 +150,10 @@
                 text-decoration: none;
                 color: whitesmoke;
             }
+
+            a:hover {
+                color: gold;
+            }
         }
 
         .btn:hover {
@@ -191,6 +195,7 @@
             width: 32%;
             padding:1.0rem;
             background-color: #D2E2D6;
+            border: 0.5rem solid whitesmoke;
 
             @media (max-width:@mobile){
                 width: 95%;
@@ -218,8 +223,31 @@
         padding:1.0rem;
         font-size: 1.5rem;
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
         background-color: #827F7F;
+
+        .footer-block-2 p {
+            color: whitesmoke;
+            padding-right: 2.0rem;
+        }
+
+        .copyright a {
+            text-decoration: none;
+            padding-left: 2.0rem;
+            color: whitesmoke;
+        }
+
+        .fa {
+            padding: 2.0rem;
+            font-size: 3.0rem;
+            color: whitesmoke;
+            text-align: center;
+            text-decoration: none;
+        }
+        .fa:hover {
+            opacity: 0.7;
+          }
     }
 
     .about_main_content {
