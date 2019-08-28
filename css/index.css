@@ -212,6 +212,7 @@ body {
   width: 100%;
   padding: 1.5rem;
   margin-top: 3rem;
+  padding-bottom: 0.5rem;
 }
 .main_container header .header_text h1 {
   font-size: 2.5rem;
@@ -232,6 +233,9 @@ body {
   .main_container header .header_text h3 {
     font-size: 1.5rem;
   }
+}
+.main_container header .header_text .our-story {
+  font-size: 4.5rem;
 }
 .main_container .middle_section {
   width: 100%;
@@ -316,6 +320,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  border: 1rem solid #827F7F;
 }
 @media (max-width: 500px) {
   .main_container .middle_section .main_content .big_image {
@@ -470,7 +475,7 @@ body {
   display: flex;
   width: 100%;
   padding: 1rem;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 @media (max-width: 500px) {
   .main_container .about_main_content {
