@@ -428,24 +428,25 @@ body {
 }
 .main_container footer .copyright a {
   text-decoration: none;
-  padding-left: 2rem;
+  padding-left: 1rem;
   color: whitesmoke;
 }
 @media (max-width: 500px) {
   .main_container footer .copyright a {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    padding: 0.5rem;
   }
 }
 .main_container footer .fa {
-  padding: 2rem;
-  font-size: 3rem;
+  padding: 1rem;
+  font-size: 2rem;
   color: whitesmoke;
   text-align: center;
   text-decoration: none;
 }
 @media (max-width: 500px) {
   .main_container footer .fa {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 0.5rem;
   }
 }
