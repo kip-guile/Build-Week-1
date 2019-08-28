@@ -241,11 +241,10 @@ body {
 }
 .main_container .middle_section .form_block {
   width: 100%;
-  margin: 1.3rem;
+  padding: 1rem;
 }
 .main_container .middle_section .form_block form {
-  margin: 0 auto;
-  width: 50%;
+  width: 100%;
   padding: 1em;
   border-radius: 1em;
   display: flex;
@@ -253,16 +252,38 @@ body {
   align-items: flex-start;
   background-color: #D2E2D6;
 }
+.main_container .middle_section .form_block form .form_div {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
 .main_container .middle_section .form_block form p {
   font-size: 2.5rem;
   padding: 1rem;
   align-self: center;
 }
+.main_container .middle_section .form_block form p.sign_in {
+  font-size: 1.5rem;
+  padding: 1rem;
+  align-self: center;
+}
+.main_container .middle_section .form_block form p.sign_in a {
+  text-decoration: none;
+  color: #827F7F;
+}
+.main_container .middle_section .form_block form p.sign_in a:hover {
+  letter-spacing: 1px;
+  color: #424141;
+  transition: all 0.4s ease 0s;
+}
 .main_container .middle_section .form_block form label {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
   width: 15rem;
-  text-align: right;
+  text-align: left;
   font-size: 1.8rem;
+  padding: 0.4rem;
 }
 .main_container .middle_section .form_block form input {
   /* To make sure that all text fields have the same font settings
