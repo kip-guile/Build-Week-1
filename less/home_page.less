@@ -104,6 +104,56 @@
         display: flex;
         flex-direction: column;
         padding:1.0rem;
+
+        .form_block{
+            width: 100%;
+            margin: 1.3rem;
+
+
+            form {
+                margin: 0 auto;
+                // width: 50%;
+                padding: 1em;
+                border-radius: 1em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    font-size: 2.0rem;
+                    padding: 1.0rem;
+                }
+
+                label {
+                    display: inline-block;
+                    width: 9.0rem;
+                    text-align: right;
+                    font-size: 1.3rem;
+                  }
+
+                input {
+                /* To make sure that all text fields have the same font settings
+                    By default, textareas have a monospace font */
+                font-size: 1em;
+                
+                /* To give the same size to all text fields */
+                width: 20rem;
+                height:2.0rem;
+                
+                /* To harmonize the look & feel of text field border */
+                border: 1px solid #999;
+                }
+
+                input:focus {
+                    /* To give a little highlight on active elements */
+                    border-color: #000;
+                  }
+            }
+
+            form div + div {
+                margin-top: 1em;
+              }
+        }
        
         .main_content {
             display: flex;
