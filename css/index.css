@@ -197,7 +197,8 @@ body {
 }
 @media (max-width: 500px) {
   .main_container header .navigation_bar nav a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 0.3rem;
   }
 }
 .main_container header .navigation_bar nav a:hover {
@@ -551,7 +552,7 @@ body {
 }
 .form_block form input {
   /* To make sure that all text fields have the same font settings
-            By default, textareas have a monospace font */
+            */
   font-size: 1.8em;
   /* To give the same size to all text fields */
   width: 30rem;
