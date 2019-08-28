@@ -428,6 +428,19 @@ body {
 .main_container footer .fa:hover {
   opacity: 0.7;
 }
+.main_container .about_text {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  border: 0.5rem solid #827F7F;
+  background-color: #D2E2D6;
+}
+.main_container .about_text p {
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+}
 .main_container .about_main_content {
   display: flex;
   width: 100%;
