@@ -312,7 +312,7 @@ body {
   border: 1px solid #999;
 }
 .main_container .middle_section .form_block form input:focus {
-  /* To give a little highlight on active elements */
+  /* To give a litle highlight on active elements */
   border-color: #000;
 }
 .main_container .middle_section .form_block form div + div {
