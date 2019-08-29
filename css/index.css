@@ -185,15 +185,26 @@ body {
   justify-content: space-evenly;
   width: 30%;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .main_container header .navigation_bar nav {
     width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .main_container header .navigation_bar nav {
+    width: 60%;
   }
 }
 .main_container header .navigation_bar nav a {
   text-decoration: none;
   color: whitesmoke;
   font-size: 1.8em;
+}
+@media (max-width: 800px) {
+  .main_container header .navigation_bar nav a {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+  }
 }
 @media (max-width: 500px) {
   .main_container header .navigation_bar nav a {
